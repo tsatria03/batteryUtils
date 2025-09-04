@@ -308,11 +308,11 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		if onAC:
 			step = _stepUp()
 			target = self._nextUpTarget if self._nextUpTarget is not None else self._ceilTo(percent, step)
-			ui.message(_("Charging. Next alert {t}% (now at {p}%).").format(t=target, p=percent))
+			ui.message(_("Charging. Next alert at {t}% (now at {p}%).").format(t=target, p=percent))
 		else:
 			step = _stepDown()
 			target = self._nextDownTarget if self._nextDownTarget is not None else self._floorTo(percent, step)
-			ui.message(_("On battery. Next alert {t}% (now at {p}%).").format(t=target, p=percent))
+			ui.message(_("On battery. Next alert at {t}% (now at {p}%).").format(t=target, p=percent))
 
 	__gestures = {
 		# NVDA key is Caps Lock or Insert
