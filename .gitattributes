@@ -1,0 +1,69 @@
+# Normalize line endings to LF
+* text=auto eol=lf
+
+# --- Binary files ---
+*.dat linguist-language=Binary
+*.exe binary
+*.ogg binary
+*.mp3 binary
+*.wav binary
+*.zip binary
+
+# --- NVGT & Game-related ---
+*.nvgt linguist-language=AngelScript
+*.sif linguist-language=INI
+*.gml linguist-language=GameMaker
+*.unity linguist-language=ShaderLab
+
+# --- Web Development ---
+*.html linguist-language=HTML
+*.css linguist-language=CSS
+*.js linguist-language=JavaScript
+*.ts linguist-language=TypeScript
+*.php linguist-language=PHP
+
+# --- General Purpose Programming ---
+*.py linguist-language=Python
+*.java linguist-language=Java
+*.cs linguist-language=C#
+*.rb linguist-language=Ruby
+*.go linguist-language=Go
+*.rs linguist-language=Rust
+*.swift linguist-language=Swift
+*.kt linguist-language=Kotlin
+
+# --- Scripting / Systems ---
+*.sh linguist-language=Shell
+*.ps1 linguist-language=PowerShell
+*.pl linguist-language=Perl
+*.lua linguist-language=Lua
+*.bat linguist-language=Batchfile
+
+# --- Game/Low-level Code ---
+*.c linguist-language=C
+*.cpp linguist-language=C++
+*.h linguist-language=C++
+*.as linguist-language=AngelScript
+
+# --- Config & Data Formats ---
+*.json linguist-language=JSON
+*.xml linguist-language=XML
+*.yaml linguist-language=YAML
+*.yml linguist-language=YAML
+*.csv linguist-language=CSV
+*.sql linguist-language=SQL
+*.ini linguist-language=INI
+*.cfg linguist-language=Configuration
+*.conf linguist-language=Configuration
+*.toml linguist-language=TOML
+
+# --- Documentation ---
+*.md linguist-language=Markdown
+*.txt linguist-language=Text
+*.doc linguist-language=Text
+*.pdf linguist-language=Text
+
+# --- Force LF on GitHub Actions workflows ---
+*.yml text eol=lf
+*.yaml text eol=lf
+.github/workflows/* text eol=lf

@@ -1,0 +1,8 @@
+New in 0.2.
+Removed all built-in sound fallbacks.
+Added 2 new brows buttons for choosing your own battery charge and discharge sounds.
+Added 2 new combo boxes for setting the interval at which the battery percentage gets anounced when your computer gets plugged in, and when it's on power.
+Renamed this addon to batteryUtils.
+New in 0.1.
+Added a toggleable checkbox that let's you play a sound to denote battery drops.
+Added a key to check when the next battery alert will occur from the current battery percentage. You can press capslock plus alt plus shift to get this info.
